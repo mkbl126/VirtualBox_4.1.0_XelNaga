@@ -1,0 +1,2 @@
+This is a normal libxslt source tarball with the tests/ subdirectory removed
+and created vboxconfig.h to replace config.h on linux platforms.

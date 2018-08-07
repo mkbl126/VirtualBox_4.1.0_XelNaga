@@ -1,0 +1,7 @@
+
+2011-08-20	include/iprt/debug_hq.h		new dbg_out facilities added here.
+
+2011-08-22	include/vbox/vmm/cfgm.h   	Add dec. for new function 'CFGMR3dumpTXT()'.
+		src/Vbox/vmmr3/cfgm.cpp		Add def. for new function 'CFGMR3dumpTXT()' and corresponding functions.
+
+
