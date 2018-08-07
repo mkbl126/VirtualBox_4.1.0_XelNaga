@@ -1,0 +1,58 @@
+ ####  loadbuildin ---> /usr/vm/VirtualBox_4.1.0/out/linux.x86/debug/bin/VBoxDD
+ ####  pdmR3DrvLoad : /usr/vm/VirtualBox_4.1.0/out/linux.x86/debug/bin/VBoxDD ---> VBoxDD
+ #### PDM: Calling VBoxDriversRegister /usr/vm/VirtualBox_4.1.0/out/linux.x86/debug/bin/VBoxDD ---> VBoxDD
+PDM: Registered driver 'MouseQueue'
+PDM: Registered driver 'KeyboardQueue'
+PDM: Registered driver 'Block'
+PDM: Registered driver 'VD'
+PDM: Registered driver 'HostDVD'
+PDM: Registered driver 'HostFloppy'
+PDM: Registered driver 'MediaISO'
+PDM: Registered driver 'RawImage'
+PDM: Registered driver 'NAT'
+PDM: Registered driver 'HostInterface'
+PDM: Registered driver 'UDPTunnel'
+PDM: Registered driver 'VDE'
+PDM: Registered driver 'IntNet'
+PDM: Registered driver 'DedicatedNic'
+PDM: Registered driver 'NetSniffer'
+PDM: Registered driver 'AUDIO'
+PDM: Registered driver 'ACPIHost'
+PDM: Registered driver 'ACPICpu'
+PDM: Registered driver 'VUSBRootHub'
+PDM: Registered driver 'NamedPipe'
+PDM: Registered driver 'RawFile'
+PDM: Registered driver 'Char'
+PDM: Registered driver 'HostParallel'
+PDM: Registered driver 'Host Serial'
+PDM: Registered driver 'SCSI'
+PDM: Registered driver 'SCSIHost'
+ ####  Load additional driver modules. /usr/vm/VirtualBox_4.1.0/out/linux.x86/debug/bin/components/VBoxC ---> VBoxC
+ ####  pdmR3DrvLoad : /usr/vm/VirtualBox_4.1.0/out/linux.x86/debug/bin/components/VBoxC ---> VBoxC
+ #### PDM: Calling VBoxDriversRegister /usr/vm/VirtualBox_4.1.0/out/linux.x86/debug/bin/components/VBoxC ---> VBoxC
+PDM: Registered driver 'MainMouse'
+PDM: Registered driver 'MainKeyboard'
+PDM: Registered driver 'MainDisplay'
+PDM: Registered driver 'HGCM'
+PDM: Registered driver 'MainAudioSniffer'
+PDM: Registered driver 'MainStatus'
+PDM: Registered driver 'MainPciRaw'
+ ####  pdmR3DrvInit: returns VINF_SUCCESS ---> OK
+PDM: Attached driver 0xb2014528:'MainKeyboard'/0 to LUN#0 on device 'pckbd'/0, pDrvAbove=0xb2014470:'KeyboardQueue'/0
+PDM: Attached driver 0xb2014470:'KeyboardQueue'/0 to LUN#0 on device 'pckbd'/0, pDrvAbove=(nil):''/-1
+PDM: Attached driver 0xb2015558:'MainMouse'/0 to LUN#1 on device 'pckbd'/0, pDrvAbove=0xb20154a0:'MouseQueue'/0
+PDM: Attached driver 0xb20154a0:'MouseQueue'/0 to LUN#1 on device 'pckbd'/0, pDrvAbove=(nil):''/-1
+PDM: Attached driver 0xb203bfb0:'HGCM'/0 to LUN#0 on device 'VMMDev'/0, pDrvAbove=(nil):''/-1
+PDM: Attached driver 0xb203c288:'MainStatus'/0 to LUN#999 on device 'VMMDev'/0, pDrvAbove=(nil):''/-1
+PDM: Attached driver 0xb2043878:'MainDisplay'/0 to LUN#0 on device 'vga'/0, pDrvAbove=(nil):''/-1
+PDM: Attached driver 0xb204d038:'MainStatus'/1 to LUN#999 on device 'piix3ide'/0, pDrvAbove=(nil):''/-1
+PDM: Attached driver 0xb204dd58:'VD'/0 to LUN#0 on device 'piix3ide'/0, pDrvAbove=0xb204dc00:'Block'/0
+PDM: Attached driver 0xb204dc00:'Block'/0 to LUN#0 on device 'piix3ide'/0, pDrvAbove=(nil):''/-1
+PDM: Attached driver 0xb209ba30:'Block'/1 to LUN#2 on device 'piix3ide'/0, pDrvAbove=(nil):''/-1
+PDM: Attached driver 0xb209cbd8:'MainStatus'/2 to LUN#999 on device 'pcnet'/0, pDrvAbove=(nil):''/-1
+PDM: Attached driver 0x37e5f80:'IntNet'/0 to LUN#0 on device 'pcnet'/0, pDrvAbove=(nil):''/-1
+PDM: Attached driver 0xb20a0d28:'MainAudioSniffer'/0 to LUN#0 on device 'AudioSniffer'/0, pDrvAbove=(nil):''/-1
+PDM: Attached driver 0xb20a15c0:'AUDIO'/0 to LUN#0 on device 'ichac97'/0, pDrvAbove=(nil):''/-1
+PDM: Attached driver 0xb20ba200:'VUSBRootHub'/0 to LUN#0 on device 'usb-ohci'/0, pDrvAbove=(nil):''/-1
+PDM: Attached driver 0xb20bd8e8:'MainStatus'/3 to LUN#999 on device 'usb-ohci'/0, pDrvAbove=(nil):''/-1
+PDM: Attached driver 0xb20c0e98:'ACPIHost'/0 to LUN#0 on device 'acpi'/0, pDrvAbove=(nil):''/-1

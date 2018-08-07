@@ -1,0 +1,113 @@
+PDMR3LdrGetSymbolR3 /usr/vm/VirtualBox_4.1.0/out/linux.x86/debug/bin/VBoxDD ---> VBoxDD
+PDM: Registered device 'pci'
+PDM: Registered device 'ich9pci'
+PDM: Registered device 'pcarch'
+PDM: Registered device 'pcbios'
+PDM: Registered device 'pckbd'
+PDM: Registered device 'piix3ide'
+PDM: Registered device 'i8254'
+PDM: Registered device 'i8259'
+PDM: Registered device 'hpet'
+PDM: Registered device 'efi'
+PDM: Registered device 'mc146818'
+PDM: Registered device 'vga'
+PDM: Registered device 'VMMDev'
+PDM: Registered device 'pcnet'
+PDM: Registered device 'e1000'
+PDM: Registered device 'virtio-net'
+PDM: Registered device 'IntNetIP'
+PDM: Registered device 'ichac97'
+PDM: Registered device 'sb16'
+PDM: Registered device 'hda'
+PDM: Registered device 'AudioSniffer'
+PDM: Registered device 'usb-ohci'
+PDM: Registered device 'acpi'
+PDM: Registered device '8237A'
+PDM: Registered device 'i82078'
+PDM: Registered device 'serial'
+PDM: Registered device 'parallel'
+PDM: Registered device 'ahci'
+PDM: Registered device 'buslogic'
+PDM: Registered device 'pcibridge'
+PDM: Registered device 'ich9pcibridge'
+PDM: Registered device 'lsilogicscsi'
+PDM: Registered device 'lsilogicsas'
+PDMR3LdrGetSymbolR3 /usr/vm/VirtualBox_4.1.0/out/linux.x86/debug/bin/VBoxDD2 ---> VBoxDD2
+PDM: Registered device 'apic'
+PDM: Registered device 'ioapic'
+PDM: Registered device 'smc'
+PDM: Registered device 'lpc'
+#### find device 8237A ---> b2001900
+#### Get the instance number. 0 ---> 0
+#### find device AudioSniffer ---> b2001858
+#### Get the instance number. 0 ---> 0
+#### find device VMMDev ---> b2001698
+#### Get the instance number. 0 ---> 0
+#### find device acpi ---> b20018c8
+#### Get the instance number. 0 ---> 0
+#### find device apic ---> b2001cc0
+#### Get the instance number. 0 ---> 0
+#### find device e1000 ---> b2001708
+#### find device i8254 ---> b2001548
+#### Get the instance number. 0 ---> 0
+#### find device i8259 ---> b2001580
+#### Get the instance number. 0 ---> 0
+#### find device ichac97 ---> b20017b0
+#### Get the instance number. 0 ---> 0
+#### find device mc146818 ---> b2001628
+#### Get the instance number. 0 ---> 0
+#### find device parallel ---> b20019a8
+#### find device pcarch ---> b2001468
+#### Get the instance number. 0 ---> 0
+#### find device pcbios ---> b20014a0
+#### Get the instance number. 0 ---> 0
+#### find device pci ---> b20013f8
+#### Get the instance number. 0 ---> 0
+#### find device pckbd ---> b20014d8
+#### Get the instance number. 0 ---> 0
+#### find device pcnet ---> b20016d0
+#### Get the instance number. 0 ---> 0
+#### find device piix3ide ---> b2001510
+#### Get the instance number. 0 ---> 0
+#### find device serial ---> b2001970
+#### find device usb-ohci ---> b2001890
+#### Get the instance number. 0 ---> 0
+#### find device vga ---> b2001660
+#### Get the instance number. 0 ---> 0
+#### find device virtio-net ---> b2001740
+#### PDM: cDevs=17 !
+#### PDM: 0 <> 17 paDevs[i].pNode=9249ce0 !
+#### Constructing device pcarch ----> 0 : 0
+#### PDM: 1 <> 17 paDevs[i].pNode=923ba88 !
+#### Constructing device pcbios ----> 0 : 0
+#### PDM: 2 <> 17 paDevs[i].pNode=9249fa8 !
+#### Constructing device pci ----> 0 : 0
+#### PDM: 3 <> 17 paDevs[i].pNode=924a150 !
+#### Constructing device pckbd ----> 0 : 0
+#### PDM: 4 <> 17 paDevs[i].pNode=924a950 !
+#### Constructing device apic ----> 0 : 0
+#### PDM: 5 <> 17 paDevs[i].pNode=924a830 !
+#### Constructing device i8259 ----> 0 : 0
+#### PDM: 6 <> 17 paDevs[i].pNode=924a710 !
+#### Constructing device i8254 ----> 0 : 0
+#### PDM: 7 <> 17 paDevs[i].pNode=923b0a8 !
+#### Constructing device mc146818 ----> 0 : 0
+#### PDM: 8 <> 17 paDevs[i].pNode=9249ed0 !
+#### Constructing device 8237A ----> 0 : 0
+#### PDM: 9 <> 17 paDevs[i].pNode=923f030 !
+#### Constructing device VMMDev ----> 0 : 0
+#### PDM: 10 <> 17 paDevs[i].pNode=923b208 !
+#### Constructing device vga ----> 0 : 0
+#### PDM: 11 <> 17 paDevs[i].pNode=923c338 !
+#### Constructing device piix3ide ----> 0 : 0
+#### PDM: 12 <> 17 paDevs[i].pNode=923dd50 !
+#### Constructing device pcnet ----> 0 : 0
+#### PDM: 13 <> 17 paDevs[i].pNode=923f700 !
+#### Constructing device AudioSniffer ----> 0 : 0
+#### PDM: 14 <> 17 paDevs[i].pNode=923fa98 !
+#### Constructing device ichac97 ----> 0 : 0
+#### PDM: 15 <> 17 paDevs[i].pNode=92400f0 !
+#### Constructing device usb-ohci ----> 0 : 0
+#### PDM: 16 <> 17 paDevs[i].pNode=9242a38 !
+#### Constructing device acpi ----> 0 : 0
+ ####  pdmR3DevInit: returns VINF_SUCCESS ---> OK

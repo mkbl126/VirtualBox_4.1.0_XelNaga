@@ -1,0 +1,4 @@
+Log created: 2013-03-29T11:38:07.311242000Z
+main     Executable: /usr/vm/VirtualBox_4.1.0/out/linux.x86/debug/bin/VBoxSVC
+main     Arg[0]: /usr/vm/VirtualBox_4.1.0/out/linux.x86/debug/bin/VBoxSVC
+main     Arg[1]: --auto-shutdown

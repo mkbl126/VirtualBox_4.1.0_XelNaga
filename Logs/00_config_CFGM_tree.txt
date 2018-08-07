@@ -1,0 +1,400 @@
+************************* CFGM dump *************************
+[/] (level 0)
+(15)<integer> CSAMEnabled : 1 
+(15)<integer> CpuExecutionCap : 100 
+(15)<integer> EnablePAE : 0 
+(15)<integer> HwVirtExtForced : 0 
+(15)<integer> MemBalloonSize : 0 
+(15)<string>  Name : WinXP0 (7)
+(15)<integer> NumCPUs : 1 
+(15)<integer> PATMEnabled : 1 
+(15)<integer> PageFusion : 0 
+(15)<integer> RamHoleSize : 536870912 
+(15)<integer> RamSize : 536870912 
+(15)<integer> RawR0Enabled : 1 
+(15)<integer> RawR3Enabled : 1 
+(15)<integer> TimerMillies : 10 
+(15)<bytes>   UUID : 913adb0 (16)
+
+[/CPUM/] (level 1)
+(12)<integer> SyntheticCpu : 0 
+
+[/Devices/] (level 1)
+
+[/Devices/8237A/] (level 2)
+
+[/Devices/8237A/0/] (level 3)
+(7)<integer> Trusted : 1 
+
+[/Devices/AudioSniffer/] (level 2)
+
+[/Devices/AudioSniffer/0/] (level 3)
+
+[/Devices/AudioSniffer/0/Config/] (level 4)
+
+[/Devices/AudioSniffer/0/LUN#0/] (level 4)
+(6)<string>  Driver : MainAudioSniffer (17)
+
+[/Devices/AudioSniffer/0/LUN#0/Config/] (level 5)
+(6)<integer> Object : 152023504 
+
+[/Devices/VMMDev/] (level 2)
+
+[/Devices/VMMDev/0/] (level 3)
+(13)<integer> PCIBusNo : 0 
+(13)<integer> PCIDeviceNo : 4 
+(13)<integer> PCIFunctionNo : 0 
+(13)<integer> Trusted : 1 
+
+[/Devices/VMMDev/0/Config/] (level 4)
+(16)<string>  GuestCoreDumpDir : /media/extend/VMS/WinXP0/Snapshots (35)
+(16)<integer> RamSize : 536870912 
+
+[/Devices/VMMDev/0/LUN#0/] (level 4)
+(6)<string>  Driver : HGCM (5)
+
+[/Devices/VMMDev/0/LUN#0/Config/] (level 5)
+(6)<integer> Object : 153321152 
+
+[/Devices/VMMDev/0/LUN#999/] (level 4)
+(6)<string>  Driver : MainStatus (11)
+
+[/Devices/VMMDev/0/LUN#999/Config/] (level 5)
+(7)<integer> First : 0 
+(7)<integer> Last : 0 
+(7)<integer> papLeds : 152050500 
+
+[/Devices/acpi/] (level 2)
+
+[/Devices/acpi/0/] (level 3)
+(13)<integer> PCIBusNo : 0 
+(13)<integer> PCIDeviceNo : 7 
+(13)<integer> PCIFunctionNo : 0 
+(13)<integer> Trusted : 1 
+
+[/Devices/acpi/0/Config/] (level 4)
+(17)<integer> CpuHotPlug : 0 
+(17)<integer> FdcEnabled : 0 
+(17)<integer> HostBusPciAddress : 0 
+(17)<integer> HpetEnabled : 0 
+(17)<integer> IOAPIC : 0 
+(17)<integer> IocPciAddress : 65536 
+(17)<integer> NumCPUs : 1 
+(17)<integer> RamHoleSize : 536870912 
+(17)<integer> RamSize : 536870912 
+(17)<integer> Serial0IoPortBase : 0 
+(17)<integer> Serial0Irq : 0 
+(17)<integer> Serial1IoPortBase : 0 
+(17)<integer> Serial1Irq : 0 
+(17)<integer> ShowCpu : 0 
+(17)<integer> ShowRtc : 0 
+(17)<integer> SmcEnabled : 0 
+
+[/Devices/acpi/0/LUN#0/] (level 4)
+(6)<string>  Driver : ACPIHost (9)
+
+[/Devices/acpi/0/LUN#0/Config/] (level 5)
+
+[/Devices/apic/] (level 2)
+
+[/Devices/apic/0/] (level 3)
+(7)<integer> Trusted : 1 
+
+[/Devices/apic/0/Config/] (level 4)
+(7)<integer> IOAPIC : 0 
+(7)<integer> NumCPUs : 1 
+
+[/Devices/e1000/] (level 2)
+
+[/Devices/i8254/] (level 2)
+
+[/Devices/i8254/0/] (level 3)
+(7)<integer> Trusted : 1 
+
+[/Devices/i8254/0/Config/] (level 4)
+
+[/Devices/i8259/] (level 2)
+
+[/Devices/i8259/0/] (level 3)
+(7)<integer> Trusted : 1 
+
+[/Devices/i8259/0/Config/] (level 4)
+
+[/Devices/ichac97/] (level 2)
+
+[/Devices/ichac97/0/] (level 3)
+(13)<integer> PCIBusNo : 0 
+(13)<integer> PCIDeviceNo : 5 
+(13)<integer> PCIFunctionNo : 0 
+(13)<integer> Trusted : 1 
+
+[/Devices/ichac97/0/Config/] (level 4)
+
+[/Devices/ichac97/0/LUN#0/] (level 4)
+(6)<string>  Driver : AUDIO (6)
+
+[/Devices/ichac97/0/LUN#0/Config/] (level 5)
+(11)<string>  AudioDriver : oss (4)
+(11)<string>  StreamName : WinXP0 (7)
+
+[/Devices/mc146818/] (level 2)
+
+[/Devices/mc146818/0/] (level 3)
+
+[/Devices/mc146818/0/Config/] (level 4)
+(6)<integer> UseUTC : 0 
+
+[/Devices/parallel/] (level 2)
+
+[/Devices/pcarch/] (level 2)
+
+[/Devices/pcarch/0/] (level 3)
+(7)<integer> Trusted : 1 
+
+[/Devices/pcarch/0/Config/] (level 4)
+
+[/Devices/pcbios/] (level 2)
+
+[/Devices/pcbios/0/] (level 3)
+(7)<integer> Trusted : 1 
+
+[/Devices/pcbios/0/Config/] (level 4)
+(14)<string>  BootDevice0 : FLOPPY (7)
+(14)<string>  BootDevice1 : DVD (4)
+(14)<string>  BootDevice2 : IDE (4)
+(14)<string>  BootDevice3 : NONE (5)
+(14)<string>  FloppyDevice : i82078 (7)
+(14)<string>  HardDiskDevice : piix3ide (9)
+(14)<integer> IOAPIC : 0 
+(14)<integer> McfgBase : 0 
+(14)<integer> McfgLength : 0 
+(14)<integer> NumCPUs : 1 
+(14)<integer> PXEDebug : 0 
+(14)<integer> RamHoleSize : 536870912 
+(14)<integer> RamSize : 536870912 
+(14)<bytes>   UUID : 91130b0 (16)
+
+[/Devices/pcbios/0/Config/NetBoot/] (level 5)
+
+[/Devices/pcbios/0/Config/NetBoot/0/] (level 6)
+(13)<integer> NIC : 0 
+(13)<integer> PCIBusNo : 0 
+(13)<integer> PCIDeviceNo : 3 
+(13)<integer> PCIFunctionNo : 0 
+
+[/Devices/pci/] (level 2)
+
+[/Devices/pci/0/] (level 3)
+(7)<integer> Trusted : 1 
+
+[/Devices/pci/0/Config/] (level 4)
+(6)<integer> IOAPIC : 0 
+
+[/Devices/pckbd/] (level 2)
+
+[/Devices/pckbd/0/] (level 3)
+(7)<integer> Trusted : 1 
+
+[/Devices/pckbd/0/Config/] (level 4)
+
+[/Devices/pckbd/0/LUN#0/] (level 4)
+(6)<string>  Driver : KeyboardQueue (14)
+
+[/Devices/pckbd/0/LUN#0/AttachedDriver/] (level 5)
+(6)<string>  Driver : MainKeyboard (13)
+
+[/Devices/pckbd/0/LUN#0/AttachedDriver/Config/] (level 6)
+(6)<integer> Object : 152052016 
+
+[/Devices/pckbd/0/LUN#0/Config/] (level 5)
+(9)<integer> QueueSize : 64 
+
+[/Devices/pckbd/0/LUN#1/] (level 4)
+(6)<string>  Driver : MouseQueue (11)
+
+[/Devices/pckbd/0/LUN#1/AttachedDriver/] (level 5)
+(6)<string>  Driver : MainMouse (10)
+
+[/Devices/pckbd/0/LUN#1/AttachedDriver/Config/] (level 6)
+(6)<integer> Object : 152053144 
+
+[/Devices/pckbd/0/LUN#1/Config/] (level 5)
+(9)<integer> QueueSize : 128 
+
+[/Devices/pcnet/] (level 2)
+
+[/Devices/pcnet/0/] (level 3)
+(13)<integer> PCIBusNo : 0 
+(13)<integer> PCIDeviceNo : 3 
+(13)<integer> PCIFunctionNo : 0 
+(13)<integer> Trusted : 1 
+
+[/Devices/pcnet/0/Config/] (level 4)
+(14)<integer> Am79C973 : 1 
+(14)<integer> CableConnected : 1 
+(14)<integer> LineSpeed : 0 
+(14)<bytes>   MAC : 923dba0 (6)
+
+[/Devices/pcnet/0/LUN#0/] (level 4)
+(6)<string>  Driver : IntNet (7)
+
+[/Devices/pcnet/0/LUN#0/Config/] (level 5)
+(20)<string>  IfPolicyPromisc : deny (5)
+(20)<integer> IgnoreConnectFailure : 1 
+(20)<string>  Network : HostInterfaceNetworking-eth0 (29)
+(20)<string>  Trunk : eth0 (5)
+(20)<integer> TrunkType : 3 
+
+[/Devices/pcnet/0/LUN#999/] (level 4)
+(6)<string>  Driver : MainStatus (11)
+
+[/Devices/pcnet/0/LUN#999/Config/] (level 5)
+(7)<integer> First : 0 
+(7)<integer> Last : 0 
+(7)<integer> papLeds : 152050468 
+
+[/Devices/piix3ide/] (level 2)
+
+[/Devices/piix3ide/0/] (level 3)
+(13)<integer> PCIBusNo : 0 
+(13)<integer> PCIDeviceNo : 1 
+(13)<integer> PCIFunctionNo : 1 
+(13)<integer> Trusted : 1 
+
+[/Devices/piix3ide/0/Config/] (level 4)
+(4)<string>  Type : PIIX4 (6)
+
+[/Devices/piix3ide/0/Config/PrimaryMaster/] (level 5)
+(19)<integer> NonRotationalMedium : 0 
+
+[/Devices/piix3ide/0/Config/SecondaryMaster/] (level 5)
+(19)<integer> NonRotationalMedium : 0 
+
+[/Devices/piix3ide/0/LUN#0/] (level 4)
+(6)<string>  Driver : Block (6)
+
+[/Devices/piix3ide/0/LUN#0/AttachedDriver/] (level 5)
+(6)<string>  Driver : VD (3)
+
+[/Devices/piix3ide/0/LUN#0/AttachedDriver/Config/] (level 6)
+(6)<string>  Format : VMDK (5)
+(6)<string>  Path : /media/extend/VMS/WinXP0/Snapshots/{253f177b-5ece-4138-bff7-e4a132ce0714}.vmdk (79)
+(6)<string>  Type : HardDisk (9)
+
+[/Devices/piix3ide/0/LUN#0/AttachedDriver/Config/Parent/] (level 7)
+(6)<string>  Format : VMDK (5)
+(6)<string>  Path : /media/extend/VMS/WinXP0/WinXP0.vmdk (37)
+
+[/Devices/piix3ide/0/LUN#0/Config/] (level 5)
+(9)<integer> Mountable : 0 
+(9)<string>  Type : HardDisk (9)
+
+[/Devices/piix3ide/0/LUN#2/] (level 4)
+(6)<string>  Driver : Block (6)
+
+[/Devices/piix3ide/0/LUN#2/Config/] (level 5)
+(9)<integer> Mountable : 1 
+(9)<string>  Type : DVD (4)
+
+[/Devices/piix3ide/0/LUN#999/] (level 4)
+(6)<string>  Driver : MainStatus (11)
+
+[/Devices/piix3ide/0/LUN#999/Config/] (level 5)
+(21)<string>  DeviceInstance : piix3ide/0 (11)
+(21)<integer> First : 0 
+(21)<integer> Last : 3 
+(21)<integer> pConsole : 152049720 
+(21)<integer> papLeds : 152050236 
+(21)<integer> pmapMediumAttachments : 152050512 
+
+[/Devices/serial/] (level 2)
+
+[/Devices/usb-ohci/] (level 2)
+
+[/Devices/usb-ohci/0/] (level 3)
+(13)<integer> PCIBusNo : 0 
+(13)<integer> PCIDeviceNo : 6 
+(13)<integer> PCIFunctionNo : 0 
+(13)<integer> Trusted : 1 
+
+[/Devices/usb-ohci/0/Config/] (level 4)
+
+[/Devices/usb-ohci/0/LUN#0/] (level 4)
+(6)<string>  Driver : VUSBRootHub (12)
+
+[/Devices/usb-ohci/0/LUN#0/Config/] (level 5)
+
+[/Devices/usb-ohci/0/LUN#999/] (level 4)
+(6)<string>  Driver : MainStatus (11)
+
+[/Devices/usb-ohci/0/LUN#999/Config/] (level 5)
+(7)<integer> First : 0 
+(7)<integer> Last : 0 
+(7)<integer> papLeds : 152050504 
+
+[/Devices/vga/] (level 2)
+
+[/Devices/vga/0/] (level 3)
+(13)<integer> PCIBusNo : 0 
+(13)<integer> PCIDeviceNo : 2 
+(13)<integer> PCIFunctionNo : 0 
+(13)<integer> Trusted : 1 
+
+[/Devices/vga/0/Config/] (level 4)
+(16)<integer> CustomVideoModes : 0 
+(16)<integer> FadeIn : 1 
+(16)<integer> FadeOut : 1 
+(16)<integer> HeightReduction : 0 
+(16)<string>  LogoFile :  (1)
+(16)<integer> LogoTime : 0 
+(16)<integer> MonitorCount : 1 
+(16)<integer> ShowBootMenu : 2 
+(16)<integer> VRamSize : 16777216 
+
+[/Devices/vga/0/LUN#0/] (level 4)
+(6)<string>  Driver : MainDisplay (12)
+
+[/Devices/vga/0/LUN#0/Config/] (level 5)
+(6)<integer> Object : 152055184 
+
+[/Devices/virtio-net/] (level 2)
+
+[/HWVirtExt/] (level 1)
+(18)<integer> 64bitEnabled : 0 
+(18)<integer> EnableLargePages : 0 
+(18)<integer> EnableNestedPaging : 1 
+(18)<integer> EnableVPID : 1 
+(18)<integer> Enabled : 1 
+(18)<integer> Exclusive : 1 
+
+[/MM/] (level 1)
+(16)<integer> CanUseLargerHeap : 0 
+
+[/PDM/] (level 1)
+
+[/PDM/AsyncCompletion/] (level 2)
+
+[/PDM/AsyncCompletion/File/] (level 3)
+
+[/PDM/AsyncCompletion/File/BwGroups/] (level 4)
+
+[/PDM/BlkCache/] (level 2)
+(9)<integer> CacheSize : 5242880 
+
+[/PDM/Devices/] (level 2)
+
+[/PDM/Drivers/] (level 2)
+
+[/PDM/Drivers/VBoxC/] (level 3)
+(4)<string>  Path : /usr/vm/VirtualBox_4.1.0/out/linux.x86/debug/bin/components/VBoxC (66)
+
+[/TM/] (level 1)
+(9)<integer> UTCOffset : 0 
+
+[/USB/] (level 1)
+
+[/USB/USBProxy/] (level 2)
+
+[/USB/USBProxy/GlobalConfig/] (level 3)
+
+********************* End of CFGM dump **********************

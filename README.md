@@ -18,6 +18,11 @@ Now the intercepting code cound work for a GuestOS with Windows XP or Windows 20
 I guess the old windows systems with int 2e transfering manner would agree with that.
 And the resolving code is only supported for Windows XP, since the kernel objects various in different versions of Windows.
 
+Use the vbox_build.sh to build the VirtualBox_4.1.0_XelNaga code. 
+But before that, many dependent libs should be installed. It's a tough work.
+
+And some examples of logs are stored in the folder of Logs.
+
 Enjoy.
 
 
